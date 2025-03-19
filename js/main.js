@@ -11,7 +11,7 @@ function updateTipAmounts() {
     // grab the meal cost from the page
     let mealCost = document.getElementById("mealCost").value;
     // populate the table with tip amounts
-    document.getElementById('tip10').innerHTML = formatter.format(mealCost * 0.25);
+    document.getElementById('tip10').innerHTML = formatter.format(mealCost * 0.10);
     document.getElementById('tip15').innerHTML = formatter.format(mealCost * 0.15);
     document.getElementById('tip18').innerHTML = formatter.format(mealCost * 0.18);
     document.getElementById('tip20').innerHTML = formatter.format(mealCost * 0.20);
