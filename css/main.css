@@ -62,6 +62,12 @@ td.amount {
   padding-right: 2vw;
 }
 
+th.total,
+td.total {
+  text-align: right;
+  padding-right: 2vw;
+}
+
 label {
   padding-right: 2vw;
 }
